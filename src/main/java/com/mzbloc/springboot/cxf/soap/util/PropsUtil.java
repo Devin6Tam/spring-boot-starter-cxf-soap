@@ -10,9 +10,7 @@ import java.util.Properties;
 
 /**
  * 属性文件工具类
- *
- * @author huangyong
- * @since 1.0.0
+ * Created by tanxw on 2019/1/31.
  */
 public final class PropsUtil {
 

@@ -21,10 +21,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * SOAP Servlet
- *
- * @author tanxw
- * @since 1.0.0
+ * Created by tanxw on 2019/1/31.
  */
 public class SoapServlet extends CXFServlet{
 

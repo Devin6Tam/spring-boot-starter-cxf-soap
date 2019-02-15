@@ -17,9 +17,7 @@ import java.util.jar.JarFile;
 
 /**
  * 类操作工具类
- *
- * @author tanxw
- * @since 1.0.0
+ * Created by tanxw on 2019/1/31.
  */
 public final class ClassUtil {
 

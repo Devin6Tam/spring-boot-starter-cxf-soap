@@ -4,9 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 转型操作工具类
- *
- * @author huangyong
- * @since 1.0.0
+ * Created by tanxw on 2019/1/31.
  */
 public final class CastUtil {
 

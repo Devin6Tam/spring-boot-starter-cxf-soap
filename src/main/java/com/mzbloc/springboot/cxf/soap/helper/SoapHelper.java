@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * SOAP 助手类
  *
- * @author huangyong
+ * @author tanxw
  * @since 1.0.0
  */
 public class SoapHelper {
