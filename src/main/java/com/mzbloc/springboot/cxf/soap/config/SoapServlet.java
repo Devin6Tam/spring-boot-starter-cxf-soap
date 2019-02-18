@@ -29,7 +29,7 @@ public class SoapServlet extends CXFServlet{
     private List<Interceptor<? extends Message>> inInterceptors;
     private List<Interceptor<? extends Message>> outInterceptors;
 
-    public void setSoapProperties(SoapProperties soapProperties, List<Interceptor<? extends Message>> inInterceptors,
+    public void initSoapProperties(SoapProperties soapProperties, List<Interceptor<? extends Message>> inInterceptors,
                                   List<Interceptor<? extends Message>> outInterceptors) {
         this.soapProperties = soapProperties;
         this.inInterceptors = inInterceptors;
@@ -77,7 +77,7 @@ public class SoapServlet extends CXFServlet{
                     for (Interceptor<? extends Message> interceptor:outInterceptors){
                         outInterceptorList.add(interceptor);
                     }
-                    serverConfigParam.setInInterceptorList(outInterceptorList);
+                    serverConfigParam.setOutInterceptorList(outInterceptorList);
                 }
                 publishService(serverConfigParam);
             }
